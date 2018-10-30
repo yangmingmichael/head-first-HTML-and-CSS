@@ -11,8 +11,7 @@ h1{
 }
 h2{
     font-size:130%;
-}
-.guarantee {
+}#guarantee{
     border-color: black;
     border-width: 1px;
     border-style: solid;
@@ -26,4 +25,10 @@ h2{
     background-image:url(images/background.gif);
     background-repeat: no-repeat;
     background-position: top left;
+    padding: 25px;
+    padding-left: 80px;
+    margin: 30px;
+    margin-right: 250px;
+    border-style: dashed;
+    border-color: white;
 }
