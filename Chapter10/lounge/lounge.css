@@ -1,0 +1,31 @@
+#elixirs{
+    border: thin solid #007e7e;
+    width:200px;
+    padding:0px  20px 20px 20px;
+    margin-left:20px;
+    text-align:center;
+    background-image:url(images/cocktail.gif);
+    background-repeat:repeat-x;
+}
+#elixirs h2{
+    color:black;
+    line-height: 1;
+}
+#elixirs h3{
+    color:red;
+}
+h2{
+    color: #007e7e;
+    font-size:120%;
+}
+body{
+    font-size:small;
+    font-family:         Verdana, Helvetica, Arial, sans-serif;
+    line-height:         1.6em;
+}
+#footer{
+    font-size:50%;
+    text-align:center;
+    line-height:normal;
+    margin-top:30px;
+}
