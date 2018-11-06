@@ -28,6 +28,7 @@ table{
   margin-right:20px;
   border:thin solid black;
   caption-side:bottom;
+  border-collapse: collapse;
 }
 
 td,th{
@@ -41,3 +42,21 @@ caption{
   padding-top:8px;
 }
 
+.center{
+text-align:center;
+}
+
+.right{
+  text-align:right;
+}
+
+th{
+  background-color:orange;
+}
+
+.cellcolor{
+  background-color: #fcba7a;
+}
+table table th,td{
+  background-color:white ;
+}
