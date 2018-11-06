@@ -31,10 +31,22 @@ table{
   border-collapse: collapse;
 }
 
+table table th,td{
+  background-color:white ;
+}
+
 td,th{
   border:thin dotted gray;
   padding:5px;
   border-spacing:0px;
+}
+
+th{
+  background-color:orange;
+}
+
+.cellcolor{
+  background-color: #fcba7a;
 }
 
 caption{
@@ -50,13 +62,16 @@ text-align:center;
   text-align:right;
 }
 
-th{
-  background-color:orange;
-}
-
-.cellcolor{
+tr:nth-child(odd){
   background-color: #fcba7a;
 }
-table table th,td{
-  background-color:white ;
+
+table table th{
+background-color:white ;
 }
+
+ li{
+   list-style-image:url(images/backpack.gif);
+   margin-left:20px;
+   padding-top:5px;
+ }
