@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Starbuzz Bean Machine</title>
+  </head>
+  <body>
+
+    <h1>The Starbuzz Bean Machine</h1>
+    <h2>Fill out the form below and click submit to order</h2>
+
+    <form action="http//starbuzzcoffee.com/processorder.php" method="post">
+        <p>Choose your beans</p>
+        <select name="beans" id="be">
+            <option name="House">House Blend</option>
+            <option name="Shade">Shade Grown</option>
+            <option name="Bolivia">Bolivia Supremo</option>
+            <option name="Organic">Organic Guatemala</option>
+            <option name="Kenya">Kenya</option>
+        </select>
+        <p>Type:</p>
+        <label></label><input type="radio" name="typeornot" value="">Whole bean</label><br>
+        <label></label><input type="radio" name="typeornot" value="">Ground</label><br>
+        Number of bags:<input type="number" min="0" max=""><br><br>
+        Must arrive by date:<input type="number" min="0" max="">
+        <p>Extras:</p>
+        <label><input type="checkbox" name="choice" value="Gift wrap">Gift wrap</label><br>
+        <label><input type="checkbox" name="choice" value="Include catalog with order">Include catalog with order</label>
+        <p>Ship to:</p>
+      Name:<input type="text"  name="name"><br><br>
+        Address:<input type="text"  name="address"><br><br>
+        City:<input type="text"  name="city"><br><br>
+        State:<input type="text"  name="state"><br><br>
+        Zip:<input type="text" name="zip"><br><br>
+        Phone:<input type="tel" name="phone"><br>
+        <!-- 电话的话必须用tel，一定要给元素设置name属性-->
+        <p>Customer Comments:</p>
+        <textarea name="Comments" rows="10" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Order Now">
+    </form>
+  </body>
+</html>
+
+
